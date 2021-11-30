@@ -8,7 +8,7 @@ spec:
     spec:
       version: ">=1.0.0"
   values:
-    replicaCount: 1
+    replicaCount: 5
     hpa:
       enabled: true
       maxReplicas: 5
